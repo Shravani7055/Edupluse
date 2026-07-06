@@ -240,7 +240,8 @@ else:
         network_status = st.sidebar.radio("Network Simulation Mode:", ["Online (Connect to n8n AI Workflow)", "Offline Mode (Zero Internet)"])
         st.sidebar.write("---")
 
-        N8N_WEBHOOK_URL = "https://hinge2025.app.n8n.cloud/webhook/generate-lesson"
+        # Secured webhook injection ready for deployment config
+        N8N_WEBHOOK_URL = st.secrets.get("N8N_CHAT_WEBHOOK", "https://hinge2025.app.n8n.cloud/webhook/generate-lesson")
 
         if network_status == "Online (Connect to n8n AI Workflow)":
             st.markdown("""
@@ -279,7 +280,9 @@ else:
                             response = requests.post(N8N_WEBHOOK_URL, json=payload, headers={"Content-Type": "application/json"})
                             
                             if response.status_code == 200:
-                                st.session_state.raw_text = response.text
+                                # Clears double spacing or custom breaks layout errors completely
+                                clean_data = response.text.replace("\n\n", " ").replace("\\n", " ")
+                                st.session_state.raw_text = clean_data
                                 st.session_state.quiz_submitted = False
                                 st.session_state.current_region = region
                                 st.session_state.current_language = language
