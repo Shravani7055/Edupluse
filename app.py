@@ -241,7 +241,7 @@ else:
         st.sidebar.write("---")
 
         # Secured webhook injection ready for deployment config
-        N8N_WEBHOOK_URL = st.secrets.get("N8N_CHAT_WEBHOOK", "https://hinge2025.app.n8n.cloud/webhook/generate-lesson")
+        N8N_WEBHOOK_URL = st.secrets.get("N8N_CHAT_WEBHOOK", "https://edupulse-backend-gns2.onrender.com/webhook/generate-lesson")
 
         if network_status == "Online (Connect to n8n AI Workflow)":
             st.markdown("""
