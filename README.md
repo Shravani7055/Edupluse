@@ -2,6 +2,10 @@
 
 An advanced, production-ready EdTech platform and web portal designed to streamline educational content tracking and automated lesson delivery. Built entirely with Python and Streamlit, the platform leverages robust local data structures to handle media workflows and application logic dynamically.
 
+Link for the app :-
+
+https://edupulseequalizerpro-xpsd8ehqzicnklvqopb75z.streamlit.app/
+
 ## 🌟 Key Features
 * **Dynamic Web Portal:** Interactive user interface featuring an elegant drag-and-drop mechanism for multi-media content uploads.
 * **Automated Asset Management:** Custom multi-media pipelines optimized for processing and managing internal assets (such as audio file generation and track compilation).
