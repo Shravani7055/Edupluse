@@ -17,6 +17,7 @@ An advanced, production-ready EdTech platform and web portal designed to streaml
 ## 🚀 Local Setup & Installation
 
 1. **Clone the Repository:**
-   ```bash  
+    https://github.com/Shravani7055/Edupluse
+   
    git clone [https://github.com/Shravani7055/edupulse-project.git](https://github.com/Shravani7055/edupulse-project.git)
 
