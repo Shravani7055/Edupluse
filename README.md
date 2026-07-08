@@ -4,7 +4,8 @@ An advanced, production-ready EdTech platform and web portal designed to streaml
 
 Link for the app :-
 
-https://edupulseequalizerpro-xpsd8ehqzicnklvqopb75z.streamlit.app/
+https://edupluse-sh.streamlit.app/
+
 
 ## 🌟 Key Features
 * **Dynamic Web Portal:** Interactive user interface featuring an elegant drag-and-drop mechanism for multi-media content uploads.
