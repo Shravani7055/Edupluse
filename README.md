@@ -1,77 +1,22 @@
-# 📚 EduPulse Equalizer Pro
+# EduPulse AI 🚀
 
-## 📖 Description
-EduPulse Equalizer Pro is an AI-powered multilingual education platform that generates personalized lessons, localized real-life examples, quizzes, and audio explanations. The platform combines Streamlit for the user interface and n8n automation workflows to deliver an interactive learning experience in multiple regional languages while supporting offline learning.
+An advanced, production-ready EdTech platform and web portal designed to streamline educational content tracking and automated lesson delivery. Built entirely with Python and Streamlit, the platform leverages robust local data structures to handle media workflows and application logic dynamically.
 
-https://edupulseequalizerpro-xpsd8ehqzicnklvqopb75z.streamlit.app/
+## 🌟 Key Features
+* **Dynamic Web Portal:** Interactive user interface featuring an elegant drag-and-drop mechanism for multi-media content uploads.
+* **Automated Asset Management:** Custom multi-media pipelines optimized for processing and managing internal assets (such as audio file generation and track compilation).
+* **Robust Database Tracking:** Structured local SQLite database configuration (`database.py`) to flawlessly record and maintain lesson structures, tracking metadata dynamically.
+* **Streamlit Cloud Optimized:** Built-in configurations ensuring a lightweight, high-performance footprint tailored for live web deployment.
 
-## ✨ Features
+## 🛠️ Tech Stack & Architecture
+* **Frontend/Interface:** Streamlit
+* **Core Logic:** Python 3.x
+* **Database Engine:** SQLite / Structural Python Components
+* **Data Management & Tracking:** Pandas
 
-- 🌍 Multilingual lesson generation
-- 🤖 AI-powered personalized learning
-- 📚 Localized real-life examples
-- 🎯 Interactive quizzes with assessments
-- 🔊 Audio lesson narration (Text-to-Speech)
-- 📊 Student progress dashboard
-- 💾 Offline lesson storage using SQLite
-- ⚡ Workflow automation with n8n
-- 🎨 Clean and user-friendly Streamlit interface
+## 🚀 Local Setup & Installation
 
+1. **Clone the Repository:**
+   ```bash  
+   git clone [https://github.com/Shravani7055/edupulse-project.git](https://github.com/Shravani7055/edupulse-project.git)
 
-
-## 🛠 Technologies Used
-
-- Python
-- Streamlit
-- n8n
-- SQLite
-- OpenAI API
-- gTTS (Google Text-to-Speech)
-- Requests Library
-- HTML & CSS (Streamlit Styling)
-
----
-
-## 🚀 Installation
-
-### 1. Clone the repository
-
-git clone https://github.com/Mohinihinge29/EduPulse-Equalizer-Pro.git
-
-### 2. Open the project
-
-cd EduPulse-Equalizer-Pro
-
-
-### 3. Install dependencies
-
-pip install -r requirements.txt
-
-### 4. Start n8n
-
-Run your n8n workflow and activate the webhook.
-
-### 5. Run the Streamlit application
-
-streamlit run app.
-
-## 📂 Project Structure
-
-```
-EduPulse-Equalizer-Pro/
-│── app.py
-│── database.py
-│── lessons.db
-│── .streamlit/
-│── requirements.txt
-│── README.md
-
-
-**Mohini Hinge**
- VJTI Mumbai
-
----
-
-
-
-This project is created for educational and academic purposes.
