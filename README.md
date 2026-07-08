@@ -19,5 +19,5 @@ An advanced, production-ready EdTech platform and web portal designed to streaml
 1. **Clone the Repository:**
     https://github.com/Shravani7055/Edupluse
    
-   git clone [https://github.com/Shravani7055/edupulse-project.git](https://github.com/Shravani7055/edupulse-project.git)
+   git clone [https://github.com/Shravani7055/Edupulse.git](https://github.com/Shravani7055/Edupulse.git)
 
